@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+header{
+    display: flex;
+    width: 95%;
+    /*border: 2px solid;*/
+    justify-content: space-between;
+    margin: 2em 2.9em;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-right: 2em;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    font-weight: 600;
+}
+header a:hover{
+    cursor: pointer;
+    background-color: hsl(180, 16%, 96%);
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup a{
+    padding: 0.5em;
+}
+.signup img{
+    width: 16px;
+    height: 20px;
+}
+
+.text{
+    display: flex;
+    /*border: 2px solid;*/
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 5%, 92%, 0.562);
+    box-shadow: 10px 10px 5px rgba(231, 230, 230, 0.897) inset;
+}
+.kyc{
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding-top: 5.5%;
+    justify-content: space-between;
+}
+.main{
+    margin-left: 18%;
+    margin-top: 1.25em;
+    /*border: 1px solid;*/
+    width: 25.5%;
+}
+.screenshot{
+    width: 74%;
+    display: flex;
+    justify-content: right;
+}
+.screenshot img{
+    width: 47%;
+}
+.icon_main img{
+    width: 19%;
+    margin-bottom: 2.5em;
+    box-shadow: 5px 5px 30px 2px gainsboro;
+    border-radius: 0.62em;
+}
+.h{
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.p{
+    margin-top: 1.25em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.button{
+    display: inline-flex;
+    margin-top: 2em;
+    border: 2px solid;
+    border-radius: 1.25em;
+    background-color: black; 
+}
+.button a{
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 0.7em 2em;
+    color: white;
+}
+
+.container-two{
+    display: flex;
+    width:100%;
+    /*border: 2px solid;*/
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5em;
+    background-color:hsl(194, 100%, 47%);
+}
+.heading{
+    margin-left: 18%;
+    font-size: 1.5em;
+    padding-top: 2.2em;
+    color: white;
+}
+.sub{
+    display: flex;
+    width: 99%;
+    padding-left: 18%;
+    padding-top: 2em;
+    /*border: 2px solid;*/
+    padding-bottom: 6em;
+}
+.icon{
+    width: 11.2%;
+    justify-content: left;
+    padding-right: 3em;
+    padding-left: 0.5em;
+    margin-right: 1em;
+    flex-direction: row;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+    border-radius: 0.8em;
+}
+.icon img{
+    width: 4em;
+    margin-bottom: 0.6em;
+}
+.icon span{
+    
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size:0.9em;
+}
+.head h3{
+    
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.icon:hover{
+    background-color: hsla(196, 100%, 44%, 1);
+    cursor: pointer;
+}
+.icon:hover img{
+    background-color: hsla(196, 100%, 44%, 1);
+}
+@media (max-width:675px) {
+    header{
+        margin: 1em;
+    }
+    ul{
+        padding: 0.5em;
+    }
+    li{
+        font-size: 0.5em;
+        text-align:center;
+    }
+    a{
+        padding: 0;
+    }
+    .signup{
+        font-size:0.5em ;
+        padding: 0;
+    }
+    .signup img{
+        width: 10px;
+        height: 14px;
+    }
+    .title img{
+        width: 30px;
+    }
+    .text{
+        font-size: 0.5em;
+    }
+    .h{
+        font-size: 0.7em;
+    }
+    .p{
+        font-size: 0.6em;
+    }
+    .button a{
+        font-size: 0.5em;
+        text-align: left;
+        padding: 0.3em;
+    }
+    .heading{
+        margin-left: 16%;
+        font-size: 0.5em;
+    }
+    .icon img{
+        width: 1.5em;
+    }
+    .icon span{
+        font-size: 0.4em;
+    }
+    .icon{
+        padding-right: 2em;
+        padding-left: 0.3em;
+    }
+    .sub{
+        padding-left: 16%;
+    }
+}
+
+@media (max-width:485px) {
+    header{
+        margin: 1em;
+    }
+    ul{
+        padding: 0.5em;
+    }
+    li{
+        font-size: 0.5em;
+        text-align:center;
+    }
+    a{
+        padding: 0;
+    }
+    .signup{
+        font-size:0.5em ;
+        padding: 0;
+    }
+    .signup img{
+        width: 10px;
+        height: 14px;
+    }
+    .title img{
+        width: 30px;
+    }
+    .text{
+        font-size: 0.5em;
+    }
+    .h{
+        font-size: 0.7em;
+    }
+    .p{
+        font-size: 0.6em;
+    }
+    .button a{
+        font-size: 0.5em;
+        text-align: left;
+        padding: 0.3em;
+    }
+    .heading{
+        margin-left: 5%;
+        font-size: 0.5em;
+    }
+    .icon img{
+        width: 1.5em;
+    }
+    .icon span{
+        font-size: 0.4em;
+    }
+    .icon{
+        padding-right: 2em;
+        padding-left: 0.3em;
+    }
+    .sub{
+        padding-left: 5%;
+    }
+    .main{
+        margin-left: 5%;
+    }
+    .screenshot img{
+        right: 0;
+    }
+    .container{
+        justify-content: space-between;
+    }
+}
